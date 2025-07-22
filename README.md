@@ -2,7 +2,7 @@
 
 Bienvenue dans le dépôt **Vacances Code Challenge**, un espace créé pour les débutants en programmation Python qui veulent progresser en s’amusant !
 
-Ce concept original a été **inventé par Abiye Enzo (Hyn)**, qui souhaite partager sa passion pour le code et aider la communauté à apprendre.
+Ce concept original a été **inventé par Abiye Enzo**, qui souhaite partager sa passion pour le code et aider la communauté à apprendre.
 
 Chaque mission te propose un exercice simple avec un code de départ.
 Ta mission : améliorer ce code, le rendre plus propre, plus efficace, ou ajouter des fonctionnalités.
