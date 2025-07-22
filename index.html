@@ -152,5 +152,75 @@
       © 2025 Vacances Code Challenge — Développé par Abiye Enzo
     </footer>
   </main>
+  <!-- Ajoute ce bloc juste avant </body> -->
+
+<div id="promo-banner">
+  <p>
+    🚀 Si tu aimes ce projet, <a href="https://github.com/abiyeenzo/ton-repo" target="_blank" rel="noopener noreferrer">⭐ ajoute une étoile sur GitHub</a> ou <a href="https://github.com/abiyeenzo" target="_blank" rel="noopener noreferrer">suis-moi</a> pour ne rien manquer !
+  </p>
+  <button id="close-banner" aria-label="Fermer la promotion">×</button>
+</div>
+
+<style>
+  #promo-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #33ff55;
+    color: #001100;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-family: 'Share Tech Mono', monospace;
+    box-shadow: 0 0 15px #33ff55;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    animation: pulse 2.5s infinite;
+    z-index: 1000;
+  }
+  #promo-banner p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  #promo-banner a {
+    color: #001100;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  #promo-banner a:hover {
+    color: #004400;
+  }
+  #close-banner {
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #001100;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+    user-select: none;
+  }
+  #close-banner:hover {
+    color: #660000;
+  }
+  @keyframes pulse {
+    0%, 100% {
+      box-shadow: 0 0 15px #33ff55;
+    }
+    50% {
+      box-shadow: 0 0 25px #00ff00;
+    }
+  }
+</style>
+
+<script>
+  document.getElementById('close-banner').addEventListener('click', function() {
+    document.getElementById('promo-banner').style.display = 'none';
+  });
+</script>
+
 </body>
 </html>
