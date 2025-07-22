@@ -66,7 +66,7 @@ Ta mission : améliorer ce code, le rendre plus propre, plus efficace, ou ajoute
 
 ## Contact & collaboration
 
-Ce projet est une initiative personnelle d’Abiye Enzo (Hyn).
+Ce projet est une initiative personnelle d’Abiye Enzo.
 Toute collaboration, suggestion ou question est la bienvenue, merci de contacter **[abiyeenzo@gmail.com](mailto:abiyeenzo@gmail.com)**.
 
 ---
